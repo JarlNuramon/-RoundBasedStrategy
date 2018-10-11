@@ -44,7 +44,11 @@ public abstract class Events {
 	{
 		if(res.contains("Create"))
 		{
-			res.substring(res.indexOf("Create"),res.length());
+			String temp =res.substring(res.indexOf("Create"),res.length());
+			if(temp.contains("Monster"))
+			{
+				
+			}
 		}
 	}
 	public void setEntities(LinkedList<BaseEntity> entities) {
