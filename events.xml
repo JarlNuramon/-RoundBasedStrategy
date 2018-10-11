@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Dungeon>
+	<Lan=Deutsch>
+		<Name>Abspaltung</Name>
+		<Story>
+			Du betrittst eine engere Gasse, welche sich in zwei Richtungen spaltet. Vom linksliegenden Durchgang fuehlst du ein kalten Durchzug und vom rechten Stille. 
+		</Story>
+		<Monster1>
+			<Kind> Skeleton </Kind>
+			<Name>Frozen Warrior</Name>
+			<Stat>16/14/0/10/11/14</Stat>
+		</Monster1>
+		<Decision1>
+			<Text>Nach Links gehen.</Text>
+			<Result> Create Monster1 </Result>
+		</Decision1>	
+		<Decision2>
+			<Text>Nach Rechts gehen.</Text>
+			<Result> NextRoom </Result>
+		</Decision2>
+		<Decision3>
+			<Text>Keine Option</Text>
+			<Result> - </Result>
+		</Decision3>
+
+	</Lan=Deutsch>
+</Dungeon>

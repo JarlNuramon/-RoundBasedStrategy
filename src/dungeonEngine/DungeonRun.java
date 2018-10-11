@@ -1,4 +1,6 @@
 package dungeonEngine;
+import java.util.LinkedList;
+
 import entities.BaseEntity;
 import mainEngine.GameApp;
 import player.*;
@@ -13,7 +15,6 @@ public class DungeonRun {
     	READING	
     }
     Phase currentPhase;
-    private BaseEntity[] entities = new BaseEntity[10];
     public DungeonRun(GameApp frame, BasePlayer player)
 	{
 		this.frame = frame;
